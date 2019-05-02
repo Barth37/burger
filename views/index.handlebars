@@ -2,23 +2,26 @@
 
 <h2>Burgers that were tasty!</h2>
 
+
 <ul>
   {{#each burgers}}
-    {{#unless devoured}}
-      {{>burgers/burgers devoured=true}}
-    {{/unless}}
+  {{#unless devoured}}
+  {{>burgers/burgers devoured=true}}
+  {{/unless}}
   {{/each}}
 </ul>
+</div>
 
 <h2>Burgers that are looking tasty!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-      {{>burgers/burgers devoured=false}}
-    {{/if}}
+  {{#if devoured}}
+  {{>burgers/burgers devoured=false}}
+  {{/if}}
   {{/each}}
 </ul>
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-form">
