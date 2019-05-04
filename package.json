@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "handlebars": "^4.1.2",
-    "mysql": "^2.17.1"
+  
   },
   "devDependencies": {},
   "scripts": {
@@ -23,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/Barth37/burger/issues"
   },
-  "homepage": "https://github.com/Barth37/burger#readme"
+  "homepage": "https://github.com/Barth37/burger#readme",
+  "dependencies": { 
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.2",
+    "mysql": "^2.17.1"
 }
